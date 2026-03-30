@@ -1,2 +1,51 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #00ff41; /* Matrix Green */
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #00ff41;
+}
+
+summary, section, aside, footer {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: #1a1a1a;
+    color: white;
+}
